@@ -13,7 +13,8 @@ namespace GestureSample.iOS {
 
             var exImage = Element as ExImage; //Xamarin.Forms側のExImageへのポインタ
             //長押しを検出するジェスチャレコナイザを生成する
-            var gr = new UILongPressGestureRecognizer(o => exImage.OnLongPress()); //長押しが発生した時に、ExImageのOnSLongPressを呼び出す
+            var gr = new UILongPressGestureRecognizer(o => exImage.OnLongPress());
+            //長押しが発生した時に、ExImageのOnSLongPressを呼び出す
 
             //ジェスチャーレコナイザーの追加
             AddGestureRecognizer(gr);

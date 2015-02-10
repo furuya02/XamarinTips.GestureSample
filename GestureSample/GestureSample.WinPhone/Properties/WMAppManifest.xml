@@ -2,7 +2,7 @@
 
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US"/>
-  <App xmlns="" ProductID="{241fd535-b51c-4b62-94cc-37259519e61d}" Title="GestureSample.WinPhone" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="GestureSample.WinPhone author" Description="Sample description" Publisher="GestureSample.WinPhone" PublisherID="{8bb41238-d997-4924-8297-a4663d2c9392}">
+  <App xmlns="" ProductID="{06cea34f-bef0-4f5b-8bf2-d051fbf08e24}" Title="GestureSample.WinPhone" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="GestureSample.WinPhone author" Description="Sample description" Publisher="GestureSample.WinPhone" PublisherID="{73ff5267-6b45-4097-8a2a-e61e37141c6c}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING"/>

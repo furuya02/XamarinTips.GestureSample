@@ -4,7 +4,6 @@ namespace GestureSample {
     public class App : Application {
         public App() {
             MainPage = new MyPage();
-
         }
 
         protected override void OnStart() {
@@ -24,19 +23,19 @@ namespace GestureSample {
         public MyPage() {
 
             //タップ検出のコード
-            //var image = new Image{
+            //var image = new Image {
             //    HeightRequest = 200,
-            //    Source = ImageSource.FromResource("GestureSample.Images.image01.png") 
+            //    Source = ImageSource.FromResource("GestureSample.Images.image01.png")
             //};
 
             //var gr = new TapGestureRecognizer();
-            //gr.Tapped += (s, e) =>{
+            //gr.Tapped += (s, e) => {
             //    DisplayAlert("", "Tap", "OK");
             //};
-            //image.GestureRecognizers.Add(gr); 
+            //image.GestureRecognizers.Add(gr);
 
             //Content = new StackLayout {
-            //    Padding = new Thickness(0, Device.OnPlatform(20, 0, 0), 0, 0),//iOSで上余白を確保
+            //    Padding = new Thickness(0, Device.OnPlatform(20, 0, 0), 0, 0), //iOSで上余白を確保
             //    Children = {image}
             //};
 
@@ -51,7 +50,7 @@ namespace GestureSample {
             };
 
             Content = new StackLayout {
-                Padding = new Thickness(0, Device.OnPlatform(20, 0, 0), 0, 0),//iOSで上余白を確保
+                Padding = new Thickness(0, Device.OnPlatform(20, 0, 0), 0, 0), //iOSで上余白を確保
                 Children = {exImage}
             };
         }

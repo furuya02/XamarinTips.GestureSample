@@ -13,3 +13,4 @@ namespace GestureSample.Droid {
         }
     }
 }
+
